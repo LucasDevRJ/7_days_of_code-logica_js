@@ -1,7 +1,10 @@
 let campoEntradaDados = document.querySelectorAll("input");
 let resposta = document.getElementById("resposta");
+let inputLinguagem = document.getElementById("inputLinguagem");
 let botao = document.querySelector("button");
 let camposPreenchidos = false;
+
+inputLinguagem.document.style.display = "hidden";
 
 botao.onclick = function() {
 	for (let i = 0; i < campoEntradaDados.length; i++) {
@@ -21,5 +24,6 @@ botao.onclick = function() {
 
 	if (camposPreenchidos == true) {
 		resposta.textContent = `Olá ${campoEntradaDados[0].value}, você tem ${campoEntradaDados[1].value} anos e já está aprendendo ${campoEntradaDados[2].value}!`;
+
 	}
 }
