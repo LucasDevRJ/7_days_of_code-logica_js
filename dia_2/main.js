@@ -1,0 +1,1 @@
+let campoEntradaDados = document.querySelectorAll("input");
