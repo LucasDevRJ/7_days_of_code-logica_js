@@ -1,29 +1,23 @@
-let campoEntradaDados = document.querySelectorAll("input");
-let resposta = document.getElementById("resposta");
-let inputLinguagem = document.getElementById("inputLinguagem");
-let botao = document.querySelector("button");
-let camposPreenchidos = false;
+let nome = prompt("Qual é o seu nome? ");
 
-inputLinguagem.document.style.display = "hidden";
-
-botao.onclick = function() {
-	for (let i = 0; i < campoEntradaDados.length; i++) {
-		let nomeDigitado = campoEntradaDados[0].value;
-		let idadeDigitada = campoEntradaDados[1].value;
-		let linguagemDigitada = campoEntradaDados[2].value;
-
-		if (nomeDigitado.length == 0
-			|| idadeDigitada.length == 0
-			|| linguagemDigitada.length == 0) {
-			resposta.textContent = "Preencha todos os campos!";
-			camposPreenchidos = false;
-		} else {
-			camposPreenchidos = true;
-		}
-	}
-
-	if (camposPreenchidos == true) {
-		resposta.textContent = `Olá ${campoEntradaDados[0].value}, você tem ${campoEntradaDados[1].value} anos e já está aprendendo ${campoEntradaDados[2].value}!`;
-
-	}
+while (nome.length == 0) {
+	alert("Digite o seu nome!");
+	nome = prompt("Qual é o seu nome? ");
 }
+
+let idade = prompt("Quantos anos você tem? ");
+
+while (idade.length == 0) {
+	alert("Digite a sua idade!");
+	idade = prompt("Quantos anos você tem? ");
+}
+
+let linguagem = prompt("Qual linguagem de programação você está estudando? ");
+
+while (linguagem.length == 0) {
+	alert("Digite a linguagem de programação!");
+	linguagem = prompt("Qual linguagem de programação você está estudando? ");
+}
+
+let resposta = document.getElementById("resposta");
+resposta.textContent = `Olá ${nome}, você tem ${idade} anos e já está aprendendo ${linguagem}!`;
