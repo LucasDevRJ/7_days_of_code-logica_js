@@ -25,6 +25,26 @@ if (decisaoArea == 1) {
 	} else {
 		alert("Existem bastantes oportunidades para quem é generalista, parabéns");
 	}
+
+	tecnologiaDesejada = prompt("Qual tecnologia gostaria de aprender?");
+
+	while (tecnologiaDesejada.length == 0) {
+		alert("Digite a tecnologia que gostaria de aprender!!");
+		tecnologiaDesejada = prompt("Qual tecnologia gostaria de aprender?");
+	}
+
+	let desejaAprenderMaisTecnologia = parseInt(prompt("Deseja aprender outra tecnologia?\n1 - Sim ou Qualquer tecla - Não"));
+
+	if (desejaAprenderMaisTecnologia == 1) {
+		tecnologiaDesejada = prompt("Qual tecnologia gostaria de aprender?");
+
+		while (tecnologiaDesejada.length == 0) {
+			alert("Digite a tecnologia que gostaria de aprender!!");
+			tecnologiaDesejada = prompt("Qual tecnologia gostaria de aprender?");
+		}
+	}
+	
+	alert("Então deseja aprender " + tecnologiaDesejada + ", Que bom!!");
 	
 } else {
 	let tecnologiaDesejada = parseInt(prompt("Deseja aprender C# ou Java?\n1 - C# ou 2 - Java"));
