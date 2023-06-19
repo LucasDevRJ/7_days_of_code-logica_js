@@ -1,4 +1,4 @@
-let numeroSorteado = 3;
+let numeroSorteado = Math.floor(Math.random() * (10 - 0 + 1) + 0);
 let numeroChutado = parseInt(prompt("Digite um número dentre 0 a 10: "));
 let chances = 3;
 
@@ -13,5 +13,4 @@ while (chances > 0) {
 	}
 
 	numeroChutado = parseInt(prompt("Digite um número dentre 0 a 10: "));
-	console.log(chances);
 }
