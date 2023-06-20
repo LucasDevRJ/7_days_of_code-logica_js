@@ -1,4 +1,9 @@
 let listaDeCompras = [];
+let categoria;
+let frutas = "";
+let laticinios = "";
+let congelados = "";
+let doces = "";
 
 while (true) {
 	let desejaAdicionarComida = parseInt(prompt("Deseja adicionar uma comida na sua lista de compras?\n1 - Sim ou 2 - Não"));
@@ -20,23 +25,26 @@ while (true) {
 	}
 
 	let categoriaComida = parseInt(prompt("Qual categoria a/o " + comidaDesejada + " se encaixa?\n1 - Frutas, 2 - Laticínios, 3 - Congelados, 4 - Doces."));
-	let categoria;
 
 	switch (categoriaComida) {
 		case 1:
 			categoria = "Frutas";
+			frutas = frutas + comidaDesejada + ", ";
 		break;
 
 		case 2:
 			categoria = "Laticínios";
+			laticinios = laticinios + comidaDesejada + ", ";
 		break;
 
 		case 3:
 			categoria = "Congelados";
+			congelados = congelados + comidaDesejada + ", ";
 		break;
 
 		case 4:
 			categoria = "Doces";
+			doces = doces + comidaDesejada + ", ";
 		break;
 	}
 
@@ -47,3 +55,9 @@ while (true) {
 
 	listaDeCompras.push(comida);
 }
+
+document.write("Lista de compras:");
+document.write("<br>&nbsp;&nbsp;&nbsp;Frutas: " + frutas);
+document.write("<br>&nbsp;&nbsp;&nbsp;Laticínios: " + laticinios);
+document.write("<br>&nbsp;&nbsp;&nbsp;Congelados: " + congelados);
+document.write("<br>&nbsp;&nbsp;&nbsp;Doces: " + doces);
