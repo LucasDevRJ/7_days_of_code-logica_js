@@ -1,8 +1,6 @@
 let opcao = parseInt(prompt("Escolha a conta:\n1 - Soma\n2 - Subtração\n3 - Multiplicação\n4 - Divisão\n5 - Sair."));
 
-if (opcao == 5) {
-	alert("Até a próxima");
-} else {
+while (opcao != 5) {
 	let valor1 = parseInt(prompt("Digite o primeiro valor:"));
 	let valor2 = parseInt(prompt("Digite o segundo valor:"));
 	let resultado;
@@ -44,4 +42,8 @@ if (opcao == 5) {
 	function dividir() {
 		return valor1 / valor2;
 	}
+
+	opcao = parseInt(prompt("Escolha a conta:\n1 - Soma\n2 - Subtração\n3 - Multiplicação\n4 - Divisão\n5 - Sair."));
 }
+
+alert("Até a próxima");
