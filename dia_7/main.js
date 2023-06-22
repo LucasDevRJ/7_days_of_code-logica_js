@@ -24,7 +24,8 @@ if (opcao == 5) {
 		break;
 
 		case 4:
-			dividir(valor1, valor2);
+			resultado = dividir(valor1, valor2);
+			alert(`${valor1} / ${valor2} = ${resultado}`);
 		break;
 	}
 
