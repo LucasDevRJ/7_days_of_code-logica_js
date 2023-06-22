@@ -19,7 +19,8 @@ if (opcao == 5) {
 		break;
 
 		case 3:
-			multiplicar(valor1, valor2);
+			resultado = multiplicar(valor1, valor2);
+			alert(`${valor1} x ${valor2} = ${resultado}`);
 		break;
 
 		case 4:
