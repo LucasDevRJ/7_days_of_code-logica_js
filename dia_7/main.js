@@ -5,15 +5,17 @@ if (opcao == 5) {
 } else {
 	let valor1 = parseInt(prompt("Digite o primeiro valor:"));
 	let valor2 = parseInt(prompt("Digite o segundo valor:"));
+	let resultado;
 
 	switch (opcao) {
 		case 1:
-			let resultado = somar(valor1, valor2);
+			resultado = somar(valor1, valor2);
 			alert(`${valor1} + ${valor2} = ${resultado}`);
 		break;
 
 		case 2:
-			subtrair(valor1, valor2);
+			resultado = subtrair(valor1, valor2);
+			alert(`${valor1} - ${valor2} = ${resultado}`);
 		break;
 
 		case 3:
@@ -27,5 +29,17 @@ if (opcao == 5) {
 
 	function somar() {
 		return valor1 + valor2;
+	}
+
+	function subtrair() {
+		return valor1 - valor2;
+	}
+
+	function multiplicar() {
+		return valor1 * valor2;
+	}
+
+	function dividir() {
+		return valor1 / valor2;
 	}
 }
