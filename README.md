@@ -1,4 +1,5 @@
-# 7 Days of Code Lógica com JavaScript 
+![7 Days of Code](https://user-images.githubusercontent.com/96800792/192065147-bcafb8b4-9917-4e3b-8b6b-d751c24f49e2.png)
+# 7 Days of Code Lógica com JavaScript
 
 ## Descrição
 Este repositório se consiste nos desafios do [7 Days of Code Lógica com JavaScript](https://7daysofcode.io/matricula/logica-programacao). Nele você encontra todas as minhas soluções para todos os 7 desafios propostos pela professora. Todos eles seperados para cada dia, como também o arquivo seperado do JavaScript, como demanda as boas práticas. 
