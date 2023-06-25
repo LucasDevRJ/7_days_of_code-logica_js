@@ -6,7 +6,7 @@ Este repositório se consiste nos desafios do [7 Days of Code Lógica com JavaSc
 Desenvolvi os códigos utilizando mais o JavaScript mesmo, decidi focar somente nele do que me ocupar mais com a estilização, já que o principal objetivo era a lógica mesmo. Os desafios que achei mais dificies foram os 5 e o 6, pois tive que programar uma lista de compras, tendo que adicionar e remover comidas da lista, fora outras funções disponíveis nela.
 
 # 📁 Acesso ao projeto
-**Para baixar este projeto basta clicar [aqui]().**
+**Para baixar este projeto basta clicar [aqui](https://github.com/LucasDevRJ/7_days_of_code-logica_js/archive/refs/heads/main.zip).**
 
 # 🛠️ Abrir e rodar o projeto
 
