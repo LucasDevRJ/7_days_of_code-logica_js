@@ -15,3 +15,13 @@ Desenvolvi os códigos utilizando mais o JavaScript mesmo, decidi focar somente 
 3. Descompacte o projeto no seu pc  
 4. Coloque o projeto descompactado na sua IDE/Editor de Código  
 5. Utilize este incrível programa**
+
+## ✔️ Técnicas e tecnologias utilizadas
+
+- ``HTML``
+- ``JavaScript``
+
+- ## :raising_hand: Autores
+
+| [<img src="https://avatars.githubusercontent.com/u/95040236?v=4" width=115><br><sub>Lucas Pereira de Lima</sub>](https://github.com/LucasDevRJ)
+| :---: |
